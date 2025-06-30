@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "Yappy: Real-time, natural voice conversations with AI in your browser"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+    "openai",
+    "python-dotenv",
+    "websockets"
+]
