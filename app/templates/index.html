@@ -9,6 +9,16 @@
     <h1>Yappy</h1>
     <button id="record">Hold to Talk</button>
     <div id="messages"></div>
+    <div style="display: flex; gap: 2em; align-items: center; margin: 2em 0;">
+        <div style="text-align:center;">
+            <canvas id="user-blob" width="120" height="120"></canvas>
+            <div style="font-size:0.9em;">You</div>
+        </div>
+        <div style="text-align:center;">
+            <canvas id="ai-blob" width="120" height="120"></canvas>
+            <div style="font-size:0.9em;">AI</div>
+        </div>
+    </div>
     <script src="/static/js/voice.js"></script>
 </body>
 </html>
